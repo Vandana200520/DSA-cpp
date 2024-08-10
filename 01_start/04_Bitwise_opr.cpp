@@ -13,6 +13,16 @@ int main(){
     cout<< "~a is " <<(~a)<<endl;
     cout<< "a^b is " <<(a^b)<<endl;
 
+    cout<< "0|0 is " <<(0|0)<<endl;
+    cout<< "0|1 is " <<(0|1)<<endl;
+    cout<< "1|0 is " <<(1|0)<<endl;
+    cout<< "1|1 is " <<(1|1)<<endl;
+
+    cout<< "0^0 is " <<(0^0)<<endl;
+    cout<< "0^1 is " <<(0^1)<<endl;
+    cout<< "1^0 is " <<(1^0)<<endl;
+    cout<< "1^1 is " <<(1^1)<<endl;
+
     //Left Shift Operator (*2)
     cout<<(17<<1)<<endl;   //(17*2)
     cout<<(17<<2)<<endl;   //(17*2*2)

@@ -42,12 +42,31 @@ void swapAlter( int arr[],  int n){
     {
         swap(arr[start], arr[start+1]);
         start = start + 2;
-
     }
+
+//another approach
+    // for (int i = 0; i < n-1 ; i++)
+    // {
+    //     if ( arr[i])
+    //     {
+    //         /* code */
+    //     }
+        
+    // }
+    
 }
 
 
 //3. find unique element
+int findUnique(int arr[], int n){
+
+    int ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        ans = ans^arr[i];
+    }
+    return ans;
+}
 
 
 //4. find duplicate
@@ -114,9 +133,12 @@ int main(){
 
 //3. find unique element
 
+    // int a[5] = {1,1,2,3,2};
+    // cout << findUnique(a,5);
+
 //4. find duplicate
-    // int b[7] = { 1, 2, 3, 3, 4, 4, 10};
-    // findDuplicate(b,7);
+    int b[7] = { 1, 2, 3, 3, 4, 4, 10};
+    findDuplicate(b,7);
     
 //6. pair sum
 

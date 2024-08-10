@@ -36,7 +36,7 @@ int get_Max(int num[], int n){
 
     for (int i = 0; i < n ; i++)
     {
-        maxi = max(maxi, num[i])
+        maxi = max(maxi, num[i]);
     }
     return maxi;  
 }
@@ -79,11 +79,6 @@ int main(){
     // cout<< "max: " << getMax(num,size) << endl;
     // cout<< "min: " << getMin(num,size) << endl;
     
-
-
-    
-
-
 
     return 0;
 }
